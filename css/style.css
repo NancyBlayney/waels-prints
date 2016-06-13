@@ -125,6 +125,29 @@ nav .pure-menu {
   }
 }
 
+/*CSS Hover Effect Styling*/
+
+img:hover {
+  -webkit-filter: grayscale(0%);
+  -webkit-transition: .3s ease-in-out;
+  -moz-filter: grayscale(0%);
+  -moz-transition: .3s ease-in-out;
+  -o-filter: grayscale(0%);
+  -o-transition: .3s ease-in-out;
+} 
+
+img {
+  -webkit-filter: grayscale(60%);
+  -webkit-transition: .3s ease-in-out;
+  -moz-filter: grayscale(100%); 
+  -moz-transition: .3s ease-in-out;
+  -o-filter: grayscale(100%); 
+  -o-transition: .3s ease-in-out;
+}
+
+/*End of CSS Hover Effect Styling*/
+
+
 
 /*Lightbox Styling*/
 #lightbox-outer{
@@ -145,7 +168,7 @@ nav .pure-menu {
 #lightbox-image {
   width: 650px;
   border: 2px solid rgba(41,47,43, .5);
-
+  -webkit-filter: grayscale(0%);
 }
 /*End of lightbox styling*/
 
